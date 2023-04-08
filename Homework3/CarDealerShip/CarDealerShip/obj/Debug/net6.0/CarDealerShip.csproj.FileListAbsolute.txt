@@ -1,0 +1,15 @@
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\obj\Debug\net6.0\CarDealerShip.csproj.AssemblyReference.cache
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\obj\Debug\net6.0\CarDealerShip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\obj\Debug\net6.0\CarDealerShip.AssemblyInfoInputs.cache
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\obj\Debug\net6.0\CarDealerShip.AssemblyInfo.cs
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\obj\Debug\net6.0\CarDealerShip.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\bin\Debug\net6.0\CarDealerShip.exe
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\bin\Debug\net6.0\CarDealerShip.deps.json
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\bin\Debug\net6.0\CarDealerShip.runtimeconfig.json
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\bin\Debug\net6.0\CarDealerShip.dll
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\bin\Debug\net6.0\CarDealerShip.pdb
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\obj\Debug\net6.0\CarDealerShip.dll
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\obj\Debug\net6.0\refint\CarDealerShip.dll
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\obj\Debug\net6.0\CarDealerShip.pdb
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\obj\Debug\net6.0\CarDealerShip.genruntimeconfig.cache
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\Homework3\CarDealerShip\CarDealerShip\obj\Debug\net6.0\ref\CarDealerShip.dll
