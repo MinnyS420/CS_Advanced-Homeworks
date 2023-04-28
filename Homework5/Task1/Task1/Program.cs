@@ -85,8 +85,6 @@ ReadFromJson1();
 
 List<Dog> deserializedDogs = JsonConvert.DeserializeObject<List<Dog>>(dogJson);
 
-//TextHelper.TextGenerator($"All dogs:\n", ConsoleColor.Yellow);
-//Uncomment only if u uncommet the 26-42 line code
 TextHelper.TextGenerator($"The last dog/'s:\n", ConsoleColor.Yellow);
 
 foreach (Dog d in deserializedDogs)
