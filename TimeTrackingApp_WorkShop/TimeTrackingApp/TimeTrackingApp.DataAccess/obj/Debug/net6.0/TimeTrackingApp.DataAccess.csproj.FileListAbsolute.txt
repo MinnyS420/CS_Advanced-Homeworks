@@ -1,0 +1,15 @@
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\bin\Debug\net6.0\TimeTrackingApp.DataAccess.deps.json
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\bin\Debug\net6.0\TimeTrackingApp.DataAccess.dll
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\bin\Debug\net6.0\TimeTrackingApp.DataAccess.pdb
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\bin\Debug\net6.0\TimeTrackingApp.Domain.dll
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\bin\Debug\net6.0\TimeTrackingApp.Domain.pdb
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\obj\Debug\net6.0\TimeTrackingApp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\obj\Debug\net6.0\TimeTrackingApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\obj\Debug\net6.0\TimeTrackingApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\obj\Debug\net6.0\TimeTrackingApp.DataAccess.AssemblyInfo.cs
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\obj\Debug\net6.0\TimeTrackingApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\obj\Debug\net6.0\TimeTrackingApp.DataAccess.csproj.CopyComplete
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\obj\Debug\net6.0\TimeTrackingApp.DataAccess.dll
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\obj\Debug\net6.0\refint\TimeTrackingApp.DataAccess.dll
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\obj\Debug\net6.0\TimeTrackingApp.DataAccess.pdb
+C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.DataAccess\obj\Debug\net6.0\ref\TimeTrackingApp.DataAccess.dll

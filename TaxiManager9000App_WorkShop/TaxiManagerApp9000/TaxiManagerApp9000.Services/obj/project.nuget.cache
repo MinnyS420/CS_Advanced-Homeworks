@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0FlOuM8H/Tc8y73wGB/PlaJIpqxBBAir/JTH4CvCkKMvXWDuqJ13j9NBmzEZ8hCYDWgSCoOOi9KBfu0HNtX/YQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marti\\Desktop\\code\\C# Advanced\\CS_Advanced-Homeworks\\TaxiManager9000App_WorkShop\\TaxiManagerApp9000\\TaxiManagerApp9000.Services\\TaxiManagerApp9000.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marti\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
