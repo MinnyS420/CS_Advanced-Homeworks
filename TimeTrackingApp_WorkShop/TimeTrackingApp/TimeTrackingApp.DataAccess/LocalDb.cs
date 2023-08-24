@@ -25,29 +25,29 @@ namespace TimeTrackingApp.DataAccess
             return db.OfType<User>().FirstOrDefault(u => u.Username == username && u.Password == password);
         }
 
-        public int AddUser(T user)
+        public int Add(T user)
         {
             user.Id = IdCounter++;
             db.Add(user);
             return user.Id;
         }
 
-        public T GetUserById(int id)
+        public T GetById(int id)
         {
             return db.Single(x => x.Id == id);
         }
 
-        public T GetUserByUsername(string username)
+        public T GetByUsername(string username)
         {
             return db.Single(x => x.Username == username);
 
         }
 
-        public bool UpdateUser(T user)
+        public bool Update(T user)
         {
             try
             {
-                T dbUser = GetUserById(user.Id);
+                T dbUser = GetById(user.Id);
 
                 dbUser = user;
                 return true;
@@ -58,11 +58,11 @@ namespace TimeTrackingApp.DataAccess
             }
         }
 
-        public bool DeleteUser(int id)
+        public bool Delete(int id)
         {
             try
             {
-                T user = GetUserById(id);
+                T user = GetById(id);
                 db.Remove(user);
                 return true;
             }

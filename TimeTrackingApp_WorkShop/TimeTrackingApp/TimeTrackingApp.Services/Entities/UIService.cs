@@ -1,5 +1,4 @@
-﻿using TimeTrackingApp.DataAccess;
-using TimeTrackingApp.Domain.Entities;
+﻿using TimeTrackingApp.Domain.Entities;
 using TimeTrackingApp.Domain.Enums;
 using TimeTrackingApp.Helpers;
 using TimeTrackingApp.Services.Entities.Interfaces;
@@ -8,14 +7,19 @@ namespace TimeTrackingApp.Services.Entities
     public class UIService : IUIService
     {
         private readonly UserService userService = new UserService();
-        public FileDataBase<User> dataBase = new FileDataBase<User>();
+        //public FileDataBase<User> dataBase = new FileDataBase<User>();
 
         List<User> users = new List<User> { };  //Username: admin123 Password:123456 Username: admin234 Password:123456
+        List<Exercising> exercoses = new List<Exercising> { };
+        List<Hobbies> hobbies = new List<Hobbies> { };
+        List<Reading> readings = new List<Reading> { };
+        List<Working> infos = new List<Working> { };
+
         public void InitializeData()
         {
             foreach (User user in users)
             {
-                userService.AddUser(user);
+                userService.Add(user);
             }
         }
         public User LoginMenu()
@@ -202,7 +206,7 @@ namespace TimeTrackingApp.Services.Entities
             }
 
             User newUser = new User(firstName, lastName, age, username, password);
-            userService.AddUser(newUser);
+            userService.Add(newUser);
             TextHelper.TextGenerator($"Successful creation of your account!", ConsoleColor.Green);
             Console.ReadKey();
         }
@@ -275,7 +279,7 @@ namespace TimeTrackingApp.Services.Entities
                         {
                             case 1:
                                 timerService.TimerStartStop();
-
+                                int duration = timerService.GetTimeInSeconds();
                                 // Choose the activity type
                                 TextHelper.TextGenerator("Choose the type of activity:", ConsoleColor.Magenta);
                                 TextHelper.TextGenerator($"1). {EExercising.Global.ToString()}", ConsoleColor.Magenta);
@@ -309,6 +313,7 @@ namespace TimeTrackingApp.Services.Entities
                         {
                             case 1:
                                 timerService.TimerStartStop();
+                                int duration = timerService.GetTimeInSeconds();
 
                                 TextHelper.TextGenerator("Choose the type of activity:", ConsoleColor.Magenta);
                                 TextHelper.TextGenerator($"1). {EReading.Belles_Lettres.ToString()}", ConsoleColor.Magenta);
@@ -356,6 +361,8 @@ namespace TimeTrackingApp.Services.Entities
                         {
                             case 1:
                                 timerService.TimerStartStop();
+                                int duration = timerService.GetTimeInSeconds();
+
                                 TextHelper.TextGenerator("Choose the type of activity:", ConsoleColor.Magenta);
                                 TextHelper.TextGenerator($"1). {EWorking.Office.ToString()}", ConsoleColor.Magenta);
                                 TextHelper.TextGenerator($"2). {EWorking.Home.ToString()}", ConsoleColor.Magenta);
@@ -416,7 +423,7 @@ namespace TimeTrackingApp.Services.Entities
 
                         if (userService.ChangePassword(loggedInUser.Id, oldPassword, newPassword))
                         {
-                            TextHelper.TextGenerator("Password changed successfully.",ConsoleColor.Green);
+                            TextHelper.TextGenerator("Password changed successfully.", ConsoleColor.Green);
                         }
                         else
                         {

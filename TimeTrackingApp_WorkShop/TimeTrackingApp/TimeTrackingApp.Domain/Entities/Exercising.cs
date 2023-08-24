@@ -2,8 +2,14 @@
 
 namespace TimeTrackingApp.Domain.Entities
 {
-    public class Exercising
+    public class Exercising : BaseEntity
     {
-        public EExercising EExercising { get; set; }
+        public int Duration { get; set; }
+        public EExercising ChosenActivityType { get; set; }
+        public Exercising(int duration, EExercising chosenActivityType)
+        {
+            Duration = duration;
+            ChosenActivityType = chosenActivityType;
+        }
     }
 }

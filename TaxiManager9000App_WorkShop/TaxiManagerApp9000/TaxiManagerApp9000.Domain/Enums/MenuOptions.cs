@@ -10,6 +10,7 @@
         ListAllCars,
         LicensePlateStatus,
         ChangePassword,
+        BackToMenu,
         Exit
     }
 }

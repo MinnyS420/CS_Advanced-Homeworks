@@ -20,7 +20,7 @@ namespace TimeTrackingApp.Services.Entities
 
         public bool ChangePassword(int userId, string oldPassword, string newPassword)
         {
-            User user = GetUserById(userId);
+            User user = GetById(userId);
             if (user == null)
             {
                 throw new Exception("User not found");
@@ -29,7 +29,7 @@ namespace TimeTrackingApp.Services.Entities
             if (user.Password == oldPassword)
             {
                 user.Password = newPassword;
-                return Db.UpdateUser(user); // Update user in the database
+                return Db.Update(user); // Update user in the database
             }
             else
             {
@@ -40,26 +40,26 @@ namespace TimeTrackingApp.Services.Entities
 
         public bool ChangeFirstName(int userId, string newFirstName)
         {
-            User user = GetUserById(userId);
+            User user = GetById(userId);
             if (user == null)
             {
                 throw new Exception("User not found");
             }
 
             user.FirstName = newFirstName;
-            return Db.UpdateUser(user); // Update user in the database
+            return Db.Update(user); // Update user in the database
         }
 
         public bool ChangeLastName(int userId, string newLastName)
         {
-            User user = GetUserById(userId);
+            User user = GetById(userId);
             if (user == null)
             {
                 throw new Exception("User not found");
             }
 
             user.LastName = newLastName;
-            return Db.UpdateUser(user); // Update user in the database
+            return Db.Update(user); // Update user in the database
         }
     }
 }

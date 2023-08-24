@@ -1,7 +1,6 @@
 C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.Helpers\bin\Debug\net6.0\TimeTrackingApp.Helpers.deps.json
 C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.Helpers\bin\Debug\net6.0\TimeTrackingApp.Helpers.dll
 C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.Helpers\bin\Debug\net6.0\TimeTrackingApp.Helpers.pdb
-C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.Helpers\obj\Debug\net6.0\TimeTrackingApp.Helpers.csproj.AssemblyReference.cache
 C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.Helpers\obj\Debug\net6.0\TimeTrackingApp.Helpers.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.Helpers\obj\Debug\net6.0\TimeTrackingApp.Helpers.AssemblyInfoInputs.cache
 C:\Users\marti\Desktop\code\C# Advanced\CS_Advanced-Homeworks\TimeTrackingApp_WorkShop\TimeTrackingApp\TimeTrackingApp.Helpers\obj\Debug\net6.0\TimeTrackingApp.Helpers.AssemblyInfo.cs

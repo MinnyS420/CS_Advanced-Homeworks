@@ -4,11 +4,11 @@ namespace TimeTrackingApp.DataAccess.Interfaces
 {
     public interface IDb<T> where T : BaseEntity
     {
-        int AddUser(T user);
-        T GetUserById(int id);
-        T GetUserByUsername(string username);
-        bool UpdateUser(T user);
-        bool DeleteUser(int id);
+        int Add(T user);
+        T GetById(int id);
+        T GetByUsername(string username);
+        bool Update(T user);
+        bool Delete(int id);
         List<T> GetAll();
     }
 }

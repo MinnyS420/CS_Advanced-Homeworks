@@ -23,11 +23,23 @@ namespace TimeTrackingApp.Services.Entities
         {
             return (int)stopwatch.Elapsed.TotalSeconds;
         }
+        public int GetTimeInSeconds()
+        {
+            int totalSeconds = GetElapsedTime();
+            int seconds = totalSeconds;
+            return seconds;
+        }
         public int GetTimeInMinutes()
         {
             int totalSeconds = GetElapsedTime();
             int minutes = totalSeconds / 60;
             return minutes;
+        }
+        public int GetTimeInHours()
+        {
+            int totalSeconds = GetElapsedTime();
+            int hours = totalSeconds / 3600; // 1 hour = 3600 seconds
+            return hours;
         }
         public void TimerStartStop()
         {

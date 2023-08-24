@@ -6,9 +6,9 @@ namespace TimeTrackingApp.DataAccess
 {
     public class FileDataBase<T> : IDb<T> where T : BaseEntity
     {
-        private string _databaseFolder;
-        private string _databasePath;
-        private string _idPath;
+        protected string _databaseFolder;
+        protected string _databasePath;
+        protected string _idPath;
 
         public FileDataBase()
         {
@@ -32,7 +32,7 @@ namespace TimeTrackingApp.DataAccess
             }
         }
 
-        public int AddUser(T user)
+        public int Add(T user)
         {
             List<T> data = new List<T>();
             using (StreamReader sr = new StreamReader(_databasePath))
@@ -58,7 +58,7 @@ namespace TimeTrackingApp.DataAccess
                 return JsonConvert.DeserializeObject<List<T>>(sr.ReadToEnd());
             }
         }
-        public bool DeleteUser(int id)
+        public bool Delete(int id)
         {
             List<T> data = new List<T>();
             using (StreamReader sr = new StreamReader(_databasePath))
@@ -81,21 +81,21 @@ namespace TimeTrackingApp.DataAccess
 
             return true;
         }
-        public T GetUserById(int id)
+        public T GetById(int id)
         {
             using (StreamReader sr = new StreamReader(_databasePath))
             {
                 return JsonConvert.DeserializeObject<List<T>>(sr.ReadToEnd()).FirstOrDefault(x => x.Id == id);
             }
         }
-        public T GetUserByUsername(string username)
+        public T GetByUsername(string username)
         {
             using (StreamReader sr = new StreamReader(_databasePath))
             {
                 return JsonConvert.DeserializeObject<List<T>>(sr.ReadToEnd()).FirstOrDefault(x => x.Username == username);
             }
         }
-        public bool UpdateUser(T user)
+        public bool Update(T user)
         {
             List<T> data = new List<T>();
             using (StreamReader sr = new StreamReader(_databasePath))
@@ -118,14 +118,14 @@ namespace TimeTrackingApp.DataAccess
 
             return true;
         }
-        private void WriteData(List<T> data)
+        protected void WriteData(List<T> data)
         {
             using (StreamWriter sw = new StreamWriter(_databasePath))
             {
                 sw.WriteLine(JsonConvert.SerializeObject(data, Formatting.Indented));
             }
         }
-        private int GenerateId()
+        protected int GenerateId()
         {
             int id = 1;
             using (StreamReader sr = new StreamReader(_idPath))

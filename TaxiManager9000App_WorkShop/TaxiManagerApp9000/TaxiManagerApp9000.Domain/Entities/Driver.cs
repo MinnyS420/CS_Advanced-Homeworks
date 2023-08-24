@@ -8,9 +8,9 @@ namespace TaxiManagerApp9000.Domain.Entities
 
         public string LastName { get; set; } = string.Empty;
 
-        public Shift Shift { get; set; }
-
         public int? CarId { get; set; }
+
+        public Shift Shift { get; set; }
 
         public string License { get; set; } = string.Empty;
 
@@ -18,20 +18,22 @@ namespace TaxiManagerApp9000.Domain.Entities
 
         public Car Car { get; set; }
 
-        public Driver(string firstName, string lastName, Shift shift, int? carId, string license, DateTime licenseExpiryDate)
+        public Driver(string firstname, string lastname, Shift shift, int? carId, string license, DateTime licenseExpieryDate)
         {
-            FirstName = firstName;
-            LastName = lastName;
+            FirstName = firstname;
+            LastName = lastname;
             CarId = carId;
             Shift = shift;
             License = license;
-            LicenseExpiryDate = licenseExpiryDate;
+            LicenseExpiryDate = licenseExpieryDate;
         }
 
         public override string Print()
         {
-            return $"Driver {FirstName} {LastName} with license number {License} that expires on {LicenseExpiryDate.Month}/{LicenseExpiryDate.Year} drives the car {Car.Model}.";
+            string carInfo = Car != null ? $"drives the car {Car.Model}" : "doesn't have a car";
+            return $"Driver {FirstName} {LastName} with license number {License} that expires on {LicenseExpiryDate.Month}/{LicenseExpiryDate.Year} {carInfo}.";
         }
+
 
         public ExpiryStatus IsLicenseExpired()
         {

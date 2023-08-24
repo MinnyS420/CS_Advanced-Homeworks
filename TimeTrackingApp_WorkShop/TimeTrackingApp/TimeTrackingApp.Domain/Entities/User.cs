@@ -1,4 +1,4 @@
-﻿namespace TimeTrackingApp.Domain.Entities
+﻿     namespace TimeTrackingApp.Domain.Entities
 {
     public class User : BaseEntity
     {

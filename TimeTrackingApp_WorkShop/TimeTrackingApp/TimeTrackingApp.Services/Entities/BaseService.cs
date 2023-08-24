@@ -13,11 +13,11 @@ namespace TimeTrackingApp.Services.Entities
             Db = new FileDataBase<T>();
         }
 
-        public bool AddUser(T user)
+        public bool Add(T user)
         {
             try
             {
-                Db.AddUser(user);
+                Db.Add(user);
                 return true;
             }
             catch (Exception ex)
@@ -26,9 +26,9 @@ namespace TimeTrackingApp.Services.Entities
             }
         }
 
-        public bool DeleteUser(int id)
+        public bool Delete(int id)
         {
-            return Db.DeleteUser(id);
+            return Db.Delete(id);
         }
 
         public List<T> GetAll()
@@ -36,14 +36,14 @@ namespace TimeTrackingApp.Services.Entities
             return Db.GetAll();
         }
 
-        public T GetUserById(int id)
+        public T GetById(int id)
         {
-            return Db.GetUserById(id);
+            return Db.GetById(id);
         }
 
-        public T GetUserByUsername(string username)
+        public T GetByUsername(string username)
         {
-            return Db.GetUserByUsername(username);
+            return Db.GetByUsername(username);
 
         }
     }
